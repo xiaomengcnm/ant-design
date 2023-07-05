@@ -18,7 +18,7 @@ const App: React.FC = () => {
   const [form] = Form.useForm();
   const [config, setConfig] = useState<WatermarkConfig>({
     content: 'Ant Design',
-    color: 'rgba(0, 0, 0, 0.15)',
+    color: 'rgba(0, 0, 0, 1)',
     fontSize: 16,
     zIndex: 11,
     rotate: -22,
